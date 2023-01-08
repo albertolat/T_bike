@@ -23,22 +23,8 @@ h1 {
     margin: 60px;
     font-weight: lighter;
 }
-
-/*@media screen and (max-width:480px) {
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-}*/
-
-/*@media screen and (min-width:481px){
-    nav {
-        display: flex;
-        flex-direction: row;
-    }
-/*}*/
     
-@media screen and (min-width:481px) {
+@media screen and (min-width:991px) {
     ul {
         list-style-type: none;
         display: flex;
@@ -52,7 +38,7 @@ h1 {
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:990px) {
     ul {
         background-color: pink;
         list-style-type: none;
