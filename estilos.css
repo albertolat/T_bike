@@ -64,13 +64,14 @@ li a:visited {
 }
 
 li a:hover {
-    text-decoration: overline;
-    color: white;
+    text-decoration: underline overline;
+    text-decoration-color: blueviolet;
+    color: black;
 }
 
 li a:active {
     text-decoration: none;
-    color: white;
+    color: orange;
 }
 
 .tarjetaH {
