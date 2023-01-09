@@ -86,6 +86,8 @@ li a:active {
 .tarjetaH section {
     width: 500px;
     height: 600px;
+    margin-bottom: 60px;
+}
 }
 
 .tarjetaH section img {
