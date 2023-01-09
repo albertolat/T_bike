@@ -74,6 +74,15 @@ li a:active {
     color: orange;
 }
 
+.tarjeta {
+    border: 1px solid;
+    border-color: blueviolet;
+    border-bottom: 5px solid;
+    border-bottom-color: blueviolet;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 .tarjetaH {
     display: flex;
     flex-wrap: wrap;
