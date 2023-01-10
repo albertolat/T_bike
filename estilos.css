@@ -75,12 +75,13 @@ li a:active {
 }
 
 .tarjeta {
-    border: 1px solid;
-    border-color: blueviolet;
-    border-bottom: 5px solid;
-    border-bottom-color: blueviolet;
+    /*border: 1px solid;*/
+    /*border-color: blueviolet;*/
+    /*border-bottom: 5px solid;*/
+    /*border-bottom-color: blueviolet;*/
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 10px 10px 30px beige;
 }
 
 .tarjetaH {
@@ -167,4 +168,12 @@ li a:active {
 footer {
     background-color: rgb(195, 195, 195);
     font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 50px;
+    border: 4px;
+    border-style: inset;
+    border-color: beige;
+    padding: 0px 50px 0px 50px;
 }
